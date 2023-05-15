@@ -177,4 +177,5 @@ header nav ul li:last-of-type a {
 }
 .post {
     height: 100vh;
+    background-image: url("../images/mount2.png");
 }
