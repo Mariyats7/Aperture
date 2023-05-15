@@ -143,16 +143,16 @@ header nav ul li:last-of-type a {
     margin-right: 6px;
 }
 .poster {
-    height: 100vh;
     background-image: url("../images/mount.png");
     background-size: cover;
+    min-height: 600px;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
     box-sizing: border-box;
 }
-.poster .container {
-    width: 298px;
+.poster-div {
+   width: 298px;
     margin-right: 62px;
 }
  .poster h3{
@@ -182,4 +182,22 @@ header nav ul li:last-of-type a {
 .post .container {
     width: 241px;
     margin-right: 119px;
+}
+.star {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #C0C0C0;
+}
+.star-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #C0C0C0;
 }
