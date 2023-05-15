@@ -179,3 +179,7 @@ header nav ul li:last-of-type a {
     height: 100vh;
     background-image: url("../images/mount2.png");
 }
+.post .container {
+    width: 241px;
+    margin-right: 119px;
+}
