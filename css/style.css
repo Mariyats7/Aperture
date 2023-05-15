@@ -183,3 +183,13 @@ header nav ul li:last-of-type a {
     width: 241px;
     margin-right: 119px;
 }
+.star {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #C0C0C0;
+
+}
