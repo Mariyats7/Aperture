@@ -151,7 +151,7 @@ header nav ul li:last-of-type a {
     align-items: center;
     box-sizing: border-box;
 }
-.poster div {
+.poster .container {
     width: 298px;
     margin-right: 62px;
 }
