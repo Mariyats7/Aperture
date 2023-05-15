@@ -174,5 +174,7 @@ header nav ul li:last-of-type a {
     line-height: 20px;
     /* or 143% */
     color: #C0C0C0;
-
+}
+.post {
+    height: 100vh;
 }
