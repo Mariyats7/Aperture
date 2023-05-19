@@ -88,8 +88,8 @@ header nav ul li:last-of-type a {
     margin: auto;
 }
 .help_h2 {
-    font-size: 40px;
-    line-height: 42px;
+    font: 40px/42px 'Poppins', sans-serif;
+    font-weight: 400;
     /* or 105% */
     color: #FFFFFF;
     text-decoration: none;
@@ -97,15 +97,13 @@ header nav ul li:last-of-type a {
 
 }
 .help_h3 {
-    font-size: 24px;
-    line-height: 30px;
+    font: 24px/30px 'Poppins', sans-serif;
     /* identical to box height, or 125% */
     color: #C0C0C0;
     margin-bottom: 22px;
 }
 .get_in_touch {
-    font-size: 16px;
-    line-height: 20px;
+    font: 16px/20px 'Poppins', sans-serif;
     /* identical to box height, or 125% */
     letter-spacing: 0.4px;
     color: #000000;
@@ -204,6 +202,8 @@ header nav ul li:last-of-type a {
 .monstera p {
     font: 14px/20px 'Poppins', sans-serif;
     font-weight: 400;
+    /* or 143% */
+    color: #C0C0C0;
 }
 .post .container {
     width: 241px;
