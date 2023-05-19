@@ -204,6 +204,13 @@ header nav ul li:last-of-type a {
 .monstera p {
     font: 14px/20px 'Poppins', sans-serif;
     font-weight: 400;
+}
+.post .container {
+    width: 241px;
+    margin-right: 119px;
+}
+.star {
+    font: 14px/20px 'Poppins', sans-serif;
     /* or 143% */
     color: #C0C0C0;
 
