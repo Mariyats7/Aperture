@@ -23,11 +23,8 @@ header nav ul li:first-of-type{
     margin-right: 24px;
 }
 header nav li a{
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 15px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -35,11 +32,8 @@ header nav ul li:first-of-type a{
     font-size: 12px;
 }
 header nav ul li:last-of-type a {
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 16px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
     letter-spacing: 0.4px;
     color: #000000;
     background: #FFFFFF;
@@ -62,35 +56,25 @@ header nav ul li:last-of-type a {
     text-align: center;
 }
 .main_banner h3{
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 14px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
 }
 .main_banner h1{
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 54px/59px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 54px;
-    line-height: 59px;
     color: #FFFFFF;
     margin-bottom: 18px;
 }
 .main_banner p{
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 14px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     color: #C0C0C0;
 }
 .help_banner {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     box-sizing: border-box;
     background: #000000;
@@ -155,22 +139,16 @@ header nav ul li:last-of-type a {
     margin-right: 62px;
 }
  .poster h4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+     font: 14px/20px 'Poppins', sans-serif;
+     font-weight: 400;
     /* identical to box height, or 143% */
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .poster p {
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 14px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     /* or 143% */
     color: #C0C0C0;
 }
@@ -184,24 +162,49 @@ header nav ul li:last-of-type a {
     box-sizing: border-box;
 }
 .post article {
-    width: 241px;
-    margin-right: 119px;
+    width: 254px;
+    margin-right: 106px;
 }
-.star {
-    font-family: 'Poppins';
-    font-style: normal;
+.post h4 {
+    font: 14px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.post p {
+    font: 14px/20px 'Poppins', sans-serif;
+    font-weight: 400;
     /* or 143% */
     color: #C0C0C0;
 }
-.star-text {
-    font-family: 'Poppins';
-    font-style: normal;
+.monstera {
+    background-image: url("../images/flora.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+.monstera article {
+    width: 273px;
+    margin-right: 87px;
+}
+.monstera h4 {
+    font: 14px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.monstera p {
+    font: 14px/20px 'Poppins', sans-serif;
+    font-weight: 400;
     /* or 143% */
     color: #C0C0C0;
+
 }
