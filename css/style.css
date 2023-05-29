@@ -50,6 +50,7 @@ header nav ul li:last-of-type a {
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
@@ -214,4 +215,72 @@ header nav ul li:last-of-type a {
     /* or 143% */
     color: #C0C0C0;
 
+}
+.widget_bright_bottom  {
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+}
+.widget_bright_bottom li{
+    margin-left: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+
+}
+.widget_bright_bottom li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Combined-Shape.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.widget_bright_bottom li:nth-child(2):before{
+    background-image: url("../images/Combined-Shape (1).svg");
+}
+.widget_bright_bottom li:nth-child(3):before{
+    background-image: url("../images/Combined-Shape (2).svg");
+    width: 32px;
+    margin-right: 7px;
+}
+.widget_bright_bottom li:nth-child(4):before{
+    background-image: url("../images/Fill-1.svg");
+    width: 10px;
+    margin-right: 5px;
+}
+.what_we_do{
+    background-color: #000000;
+    padding: 113px 0 84px;
+}
+.what_we_do .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.what_we_do .d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.what_we_do article{
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.what_we_do article img{
+    display: block;
+    width: 100%;
+}
+.what_we_do article .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
 }
