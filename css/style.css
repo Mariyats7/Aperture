@@ -224,11 +224,8 @@ header nav ul li:last-of-type a {
 }
 .widget_bright_bottom li{
     margin-left: 16px;
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 12px/12px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
     /* identical to box height, or 100% */
     color: #FFFFFF;
 
@@ -244,10 +241,10 @@ header nav ul li:last-of-type a {
     bottom: -5px;
 }
 .widget_bright_bottom li:nth-child(2):before{
-    background-image: url("../images/Combined-Shape (1).svg");
+    background-image: url("../images/Combined-Shape1.svg");
 }
 .widget_bright_bottom li:nth-child(3):before{
-    background-image: url("../images/Combined-Shape (2).svg");
+    background-image: url("../images/Combined-Shape2.svg");
     width: 32px;
     margin-right: 7px;
 }
@@ -283,4 +280,36 @@ header nav ul li:last-of-type a {
     bottom: 30px;
     left: 30px;
     right: 30px;
+}
+.what_we_do article h5{
+    font: 14px/20px 'Poppins', sans-serif;
+    font-weight: 400;
+    /* or 143% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do article p {
+    font: 14px/20px 'Poppins', sans-serif;
+    font-weight: 400;
+    /* or 143% */
+    color: #C0C0C0;
+    margin-bottom: 15px;
+}
+.what_we_do h2 {
+    font: 40px/42px 'Poppins', sans-serif;
+    font-weight: 400;
+    /* identical to box height, or 105% */
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h4 {
+    font: 23px/30px 'Poppins', sans-serif;
+    font-weight: 400;
+    /* identical to box height, or 130% */
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
 }
