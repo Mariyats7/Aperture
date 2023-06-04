@@ -18,17 +18,65 @@
     }
 }
 @media only screen and (max-width: 428px) {
-    header .container{
+    header .container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    header nav li a {
+        font-size: 10px;
+        display: flex;
+        flex-flow: row wrap;
 
     }
-    header nav li a{
-        font-size: 10px;
+}
+@media only screen and (max-width: 360px) {
+    .post article {
+        margin-right: 30px;
     }
+    .poster article {
+        margin-right: 30px;}
+    .monstera article {
+        margin-right: 30px;}
+    .past_clients {
+        padding: 30px;}
+}
+@media only screen and (max-width: 320px) {
+    header nav ul li:first-of-type {
+        margin-right: 10px;
+    }
+
     header nav ul li:last-of-type a {
-        font-size: 10px;
+        font-size: 13px;
         padding: 5px;
+    }
+
+    .widget_bright_bottom {
+        right: 20px;
+    }
+
+    .poster article {
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 2800px) {
+    header nav ul li {
+        margin-left: 5px;
+    }
+
+    .widget_bright_bottom li {
+        margin-left: 3px;
+    }
+
+    .what_we_do article p {
+        margin-bottom: 5px;
+    }
+
+    .monstera article {
+        margin-right: 5px;
+    }
+
+    .widget_bright_bottom {
+        right: 10px;
     }
 }
