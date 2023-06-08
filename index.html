@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
 
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
 
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
@@ -24,31 +27,32 @@
 </head>
 <body>
 <header>
-    <div class="container">
-        <a href="#" class="logo">
+    <div class="header-wrapper container justify-between d-flex">
+        <a href="#">
             <img src="images/logo.svg" alt="logo">
         </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Business areas</a>
-                </li>
-                <li>
-                    <a href="#">Featured images</a>
-                </li>
-                <li>
-                    <a href="#">Gear cage</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Get template</a>
-                </li>
-            </ul>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Business areas</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Get template</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>
+
+
 <main>
     <section class="main_banner">
         <div class="container">
@@ -183,11 +187,67 @@
 
 </main>
 
+<footer>
+    <div id="accordion">
+        <h3><div class="button-down"></div></h3>
+        <div class="container">
+            <div class="ft_left">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <p>Photographers & videographers capturing the world around us.</p>
+            </div>
+            <div class="ft_right">
+                <ul>
+                    <li>Business areas</li>
+                    <li><a href="#">Product Photography</a></li>
+                    <li><a href="#">Architecture Photography</a></li>
+                    <li><a href="#">Drone Photography</a></li>
+                    <li><a href="#">Wildlife Photography</a></li>
+                </ul>
+                <ul>
+                    <li>Pages</li>
+                    <li><a href="#">Gear cage</a></li>
+                    <li><a href="#">Featured images</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Style guide</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">Changelog</a></li>
+                </ul>
+            </div>
+        </div>
+        <h3><div class="button-down"></div></h3>
+        <div class="container">
+            <div class="ft_left">
+                <h3>Subscribe to our newsletter</h3>
+                <h4>Read about all the things we do.</h4>
+            </div>
+            <div class="ft_right">
+                <form action="" method="post">
+                    <input type="email" name="email" >
+                    <button type="submit"></button>
+                </form>
+            </div>
+        </div>
+        <h3><div class="button-down"></div></h3>
+        <div class="container">
+            <div class="ft_left">
+                <p>© Aperture Photography, Inc. All rights reserved.</p></div>
+            <div class="ft_right">
+                <a class="ft_icon" href="#"><img src="images/twit1.png" alt="img"></a>
+                <a class="ft_icon" href="#"><img src="images/inst11.png" alt="img"></a>
+                <a class="ft_icon" href="#"><img src="images/faceb.png" alt="img"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script
         src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
