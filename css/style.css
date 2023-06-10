@@ -1,4 +1,5 @@
 
+
 header {
     padding: 24px 0;
     background: #181818;
@@ -135,12 +136,12 @@ header nav ul li:last-of-type a {
     position: relative;
 }
 .poster article {
-   width: 298px;
+    width: 298px;
     margin-right: 62px;
 }
- .poster h4{
-     font: 14px/20px 'Poppins', sans-serif;
-     font-weight: 400;
+.poster h4{
+    font: 14px/20px 'Poppins', sans-serif;
+    font-weight: 400;
     /* identical to box height, or 143% */
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -527,52 +528,43 @@ footer .ft_icon {
     color: black;
     display: none;
 }
-.ui-state-active .button-down{
-    display: none;
-}
-.button-up,
-.button-down {
-    position: relative;
-    padding: 5px;
-    margin: 30px auto;
-    background: #000;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    transition: all 0.2s linear;
-}
-
-.button-down:hover {
-    transform: translate3d(0, 10px, 0);
-}
-
-.button-up:hover {
-    transform: translate3d(0, -10px, 0);
-}
-
-.button-up::after,
-.button-down::after {
-    content: "";
-    position: absolute;
-    left: 17px;
-    z-index: 11;
-    display: block;
-    width: 25px;
-    height: 25px;
-    border-top: 2px solid #fff;
-    border-left: 2px solid #fff;
-}
-.button-up::after {
-    top: 20px;
-    transform: rotate(45deg);
-}
-
-.button-down::after {
-    top: 10px;
-    transform: rotate(225deg);
-}
 
 .logo {
     position: relative;
     z-index: 99;
+}
+
+footer h3 {
+    font-size: 30px !important;
+    color: white;
+}
+
+footer h3 {
+    text-align: left;
+    position: relative;
+}
+
+footer h3 span {
+    display: block;
+    text-align: left;
+    padding-left: 50px;
+}
+
+footer h3 .button-down {
+    position: absolute;
+    content: "";
+    z-index: 11;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    transform: rotate(135deg);
+    left: 0;
+    top: 11px;
+}
+
+footer h3.ui-accordion-header-active .button-down {
+    transform: rotate(225deg);
+    left: 8px;
 }
