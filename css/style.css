@@ -536,10 +536,6 @@ footer .ft_icon {
 .accordion-title {
     font-size: 30px !important;
     color: white;
-}
-
-.accordion-title {
-    text-align: left;
     position: relative;
 }
 
@@ -552,7 +548,6 @@ footer .ft_icon {
 .accordion-title .button-down {
     position: absolute;
     content: "";
-    z-index: 11;
     display: block;
     width: 12px;
     height: 12px;
