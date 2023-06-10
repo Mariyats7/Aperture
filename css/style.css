@@ -1,5 +1,4 @@
 
-
 header {
     padding: 24px 0;
     background: #181818;
@@ -534,7 +533,7 @@ footer .ft_icon {
     z-index: 99;
 }
 
-footer h3 {
+footer .accordion-title {
     font-size: 30px !important;
     color: white;
 }
