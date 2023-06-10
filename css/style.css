@@ -418,11 +418,8 @@ footer .logo {
 }
 
 footer .ft_left p {
-    font-family: 'Poppins';
-    font-style: normal;
+    font: 13px/20px 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
     color: #C0C0C0;
 }
 
@@ -532,9 +529,8 @@ footer .ft_icon {
     position: relative;
     z-index: 99;
 }
-
 .accordion-title {
-    font-size: 30px !important;
+    font-size: 30px!important;
     color: white;
     position: relative;
 }
