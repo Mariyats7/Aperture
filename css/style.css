@@ -1,5 +1,4 @@
 
-
 header {
     padding: 24px 0;
     background: #181818;
@@ -534,23 +533,23 @@ footer .ft_icon {
     z-index: 99;
 }
 
-footer h3 {
+.accordion-title {
     font-size: 30px !important;
     color: white;
 }
 
-footer h3 {
+.accordion-title {
     text-align: left;
     position: relative;
 }
 
-footer h3 span {
+.accordion-title span {
     display: block;
     text-align: left;
     padding-left: 50px;
 }
 
-footer h3 .button-down {
+.accordion-title .button-down {
     position: absolute;
     content: "";
     z-index: 11;
@@ -564,7 +563,7 @@ footer h3 .button-down {
     top: 11px;
 }
 
-footer h3.ui-accordion-header-active .button-down {
+h3.ui-accordion-header-active .button-down {
     transform: rotate(225deg);
     left: 8px;
 }
