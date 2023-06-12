@@ -370,21 +370,21 @@ header nav ul li:last-of-type a {
     align-items: center;
 }
 .past_clients .owl-nav .owl-prev{
-    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg")!important;
-    width: 14px;
-    height: 26px;
-    position: absolute;
-    left: -20px;
-    top: 30px;
-    background-color: #FFFFFF!important;
-}
-.past_clients .owl-nav .owl-next{
-    background-color: green!important;
     width: 20px;
     height: 20px;
     position: absolute;
+    left: -20px;
+    top: 30px;
+    border-radius: 50%;
+}
+.past_clients .owl-nav .owl-next{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
     right: -20px;
     top: 30px;
+
 }
 footer {
     padding: 100px 0 0;
