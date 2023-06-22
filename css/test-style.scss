@@ -83,7 +83,7 @@ header {
 }
 .main_banner {
   height: calc(100vh - 82px);
-  background-image: url("images/IMAGE.jpg");
+  background-image: url("../images/IMAGE.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -161,7 +161,7 @@ header {
 }
 
 .poster {
-  background-image: url("images/mount.png");
+  background-image: url("../images/mount.png");
   background-size: cover;
   min-height: 600px;
   display: flex;
@@ -187,7 +187,7 @@ header {
   }
 }
 .post {
-  background-image: url("images/mount2.png");
+  background-image: url("../images/mount2.png");
   background-size: cover;
   min-height: 600px;
   display: flex;
@@ -212,7 +212,7 @@ header {
   }
 }
 .monstera {
-  background-image: url("images/flora.jpg");
+  background-image: url("../images/flora.jpg");
   background-size: cover;
   min-height: 600px;
   display: flex;
@@ -253,7 +253,7 @@ header {
     &:before {
       content: "";
       display: inline-block;
-      background-image: url("images/Combined-Shape.svg");
+      background-image: url("../images/Combined-Shape.svg");
       width: 16px;
       height: 16px;
       margin-right: 6px;
@@ -262,17 +262,17 @@ header {
     }
 
     &:nth-child(2):before {
-      background-image: url("images/Combined-Shape1.svg");
+      background-image: url("../images/Combined-Shape1.svg");
     }
 
     &:nth-child(3):before {
-      background-image: url("images/Combined-Shape2.svg");
+      background-image: url("../images/Combined-Shape2.svg");
       width: 32px;
       margin-right: 7px;
     }
 
     &:nth-child(4):before {
-      background-image: url("images/Fill-1.svg");
+      background-image: url("../images/Fill-1.svg");
       width: 10px;
       margin-right: 5px;
     }
