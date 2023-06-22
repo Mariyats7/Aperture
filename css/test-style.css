@@ -1,0 +1,885 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "style.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+header {
+  padding: 24px 0;
+  background: #181818;
+}
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  padding-right: 34px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 428px) {
+  header .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+}
+header .container nav ul {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 428px) {
+  header .container nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+header .container nav ul li {
+  margin-left: 32px;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+header .container nav ul li:first-of-type {
+  margin-right: 24px;
+}
+header .container nav ul li:first-of-type a {
+  font-size: 12px;
+}
+@media screen and (max-width: 428px) {
+  header .container nav ul li {
+    font-size: 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+header .container nav ul li a {
+  font: 15px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: none;
+}
+header .container nav ul li:last-of-type a {
+  font: 16px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #000000;
+  background: #FFF;
+  border-radius: 14px;
+  padding: 11px 20px;
+  text-decoration: none;
+}
+
+.main_banner {
+  height: calc(100vh - 82px);
+  background-image: url("images/IMAGE.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 71px;
+  box-sizing: border-box;
+  position: relative;
+}
+.main_banner .container {
+  max-width: 580px;
+  text-align: center;
+}
+.main_banner .container h3 {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+.main_banner .container h1 {
+  font: 54px/59px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  margin-bottom: 18px;
+}
+.main_banner .container p {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+
+.help_banner {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  background: #000000;
+  text-align: center;
+  padding-top: 113px;
+  padding-bottom: 108px;
+}
+.help_banner .container {
+  max-width: 571px;
+  margin: auto;
+}
+.help_banner .container .help_h2 {
+  font: 40px/42px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.help_banner .container .help_h2 .help_h3 {
+  font: 24px/30px "Poppins", sans-serif;
+  color: #C0C0C0;
+  margin-bottom: 22px;
+}
+.help_banner .container .help_h2 .help_h3 .get_in_touch {
+  font: 16px/20px "Poppins", sans-serif;
+  letter-spacing: 0.4px;
+  color: #000000;
+  padding: 5px 10px 5px 5px;
+  text-decoration: none;
+  background: #FFF;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+}
+.help_banner .container .help_h2 .help_h3 .get_in_touch:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  border-radius: 44%;
+  margin-right: 6px;
+}
+
+.poster {
+  background-image: url("images/mount.png");
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+.poster article {
+  width: 298px;
+  margin-right: 62px;
+}
+.poster article h4 {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.poster article h4 p {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+
+.post {
+  background-image: url("images/mount2.png");
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+.post article {
+  width: 254px;
+  margin-right: 106px;
+}
+.post article h4 {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.post article h4 p {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+
+.monstera {
+  background-image: url("images/flora.jpg");
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+.monstera article {
+  width: 273px;
+  margin-right: 87px;
+}
+.monstera article h4 {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.monstera article h4 p {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+
+.widget_bright_bottom {
+  position: absolute;
+  right: 40px;
+  bottom: 41px;
+  display: flex;
+}
+.widget_bright_bottom li {
+  margin-left: 16px;
+  font: 12px/12px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+.widget_bright_bottom li:before {
+  content: "";
+  display: inline-block;
+  background-image: url("images/Combined-Shape.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  position: relative;
+  bottom: -5px;
+}
+.widget_bright_bottom li:nth-child(2):before {
+  background-image: url("images/Combined-Shape1.svg");
+}
+.widget_bright_bottom li:nth-child(3):before {
+  background-image: url("images/Combined-Shape2.svg");
+  width: 32px;
+  margin-right: 7px;
+}
+.widget_bright_bottom li:nth-child(4):before {
+  background-image: url("images/Fill-1.svg");
+  width: 10px;
+  margin-right: 5px;
+}
+
+.what_we_do {
+  background-color: #000000;
+  padding: 113px 0 84px;
+}
+.what_we_do .container {
+  max-width: 1168px;
+  margin: auto;
+}
+.what_we_do .container h2 {
+  font: 40px/42px "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+.what_we_do .container h4 {
+  font: 23px/30px "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 42px;
+}
+.what_we_do .container .d-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.what_we_do .container .d-flex article {
+  max-width: 576px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.what_we_do .container .d-flex article img {
+  display: block;
+  width: 100%;
+}
+.what_we_do .container .d-flex article .description {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+}
+.what_we_do .container .d-flex article .description h5 {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+.what_we_do .container .d-flex article .description p {
+  font: 14px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #C0C0C0;
+  margin-bottom: 15px;
+}
+
+.past_clients {
+  background: #000000;
+  padding: 113px 182px 140px;
+}
+.past_clients .container {
+  max-width: 1200px;
+  margin: auto;
+}
+.past_clients .container h2 {
+  font: 40px/42px "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+.past_clients .container h3 {
+  font: 24px/30px "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 82px;
+}
+.past_clients .container .wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.past_clients .container .wrap a {
+  max-width: 128px;
+  display: inline-block;
+}
+.past_clients .container .wrap .logo {
+  position: relative;
+  z-index: 99;
+}
+.past_clients .container .owl-item {
+  text-align: center;
+}
+.past_clients .container .owl-stage {
+  display: flex;
+  align-items: center;
+}
+.past_clients .container .owl-nav .owl-prev, .past_clients .container .owl-nav .owl-next {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 30px;
+  border-radius: 50%;
+}
+.past_clients .container .owl-nav .owl-prev {
+  left: -20px;
+}
+.past_clients .container .owl-nav .owl-next {
+  right: -20px;
+}
+
+footer {
+  padding: 100px 0 0;
+  background-color: #000000;
+}
+footer .container {
+  max-width: 1168px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 36px;
+}
+footer .container:nth-of-type(2) {
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 36px 0;
+  margin-bottom: 36px;
+}
+footer .container:nth-of-type(2) .ft_right {
+  width: 100%;
+  max-width: 458px;
+}
+footer .container:nth-of-type(2) .logo {
+  margin-bottom: 20px;
+}
+footer .container:nth-of-type(2) .ft_right {
+  display: flex;
+}
+footer .container:nth-of-type(2) .ft_right ul {
+  list-style: none;
+}
+footer .container:nth-of-type(2) .ft_right ul:first-of-type {
+  margin-right: 55px;
+}
+footer .container:nth-of-type(2) .ft_right ul li {
+  margin-bottom: 10px;
+  font: 14px/20px "Poppins", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+footer .container:nth-of-type(2) .ft_right ul li a {
+  text-decoration: none;
+  font: 14px/20px "Poppins", sans-serif;
+  color: #FFF;
+  text-transform: capitalize;
+}
+footer .container:nth-of-type(2) .ft_right form {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 6px;
+  width: 100%;
+}
+footer .container:nth-of-type(2) .ft_right form input {
+  width: 75%;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+}
+footer .container:nth-of-type(2) .ft_right form button {
+  border: none;
+  background: #000000;
+  border-radius: 11px;
+  height: 30px;
+  width: 63px;
+}
+footer .container:nth-of-type(2) .ft_left p {
+  font: 13px/20px "Poppins", sans-serif;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+footer .container:nth-of-type(2) .ft_left h3 {
+  font: 14px/20px "Poppins", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #FFF;
+}
+footer .container:nth-of-type(2) .ft_left h4 {
+  font: 13px/20px "Poppins", sans-serif;
+  color: #C0C0C0;
+}
+footer .container .ft_icon {
+  margin-left: 20px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content {
+  background-color: transparent;
+  border: none;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 0;
+}
+.ui-accordion .ui-accordion-header {
+  max-width: 1168px;
+  margin: auto;
+  text-align: center;
+}
+
+.ui-icon {
+  display: none;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+  color: #000000;
+  display: none;
+}
+
+.accordion-title {
+  font-size: 30px !important;
+  color: #FFF;
+  position: relative;
+}
+.accordion-title span {
+  display: block;
+  text-align: left;
+  padding-left: 50px;
+}
+.accordion-title .button-down {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #FFF;
+  border-left: 2px solid #FFF;
+  transform: rotate(135deg);
+  left: 0;
+  top: 11px;
+}
+
+h3.ui-accordion-header-active .button-down {
+  transform: rotate(225deg);
+  left: 8px;
+}
+
+/*# sourceMappingURL=test-style.css.map */
